@@ -1,0 +1,19 @@
+Super Mario Forest
+
+Es un juego basado en algunos de los personajes del tipico juego Super Mario Bros. El objetivo principal es hacer salir a la princesa que esta escondida en un bosque, ya que esta brava por que Mario quiere obligarla a ir al cumpleaños de Luigi, hermano de Mario, pero la princesa no se la lleva bien con él. Para contentar a la princesa Mario debe superar varios niveles y recojer minimo 25 hongos, ya que son un buen regalo para que a la princesa se le pase el malgenio y salga. Hay quqe tener cuidado de los Goomba, ya que si uno se cruza con uno de ellos, se roba un hongo de los que Mario tiene y se va.
+
+Modo de juego:
+Se usan las flechas del teclado para mover a Mario.
+Se deben recojer minimo 25 hongos, cada hongo que se recoje se va acumulando.
+Cuando se tienen los 25 hongos, la princesa aparece en alguna parte del bosque, Mario debe ir a recojerla sin perder hongos(que se los robe algun Goomba) ya que si pierde alguno, la princesa vuelve y se esconde.
+Los goomba se mueven por todo el bosque, ahi que esquivarlos lo maximo posible.
+Cada vez que pasa un nivel, los Goomba se mueven mas rapido a traves del bosque, igual que Mario.
+Si Mario resulta con un numero negativo de hongos, pierde y no encontrara a la pricesa, obviamente.
+Para ganar debe recojer minimo 25 hongos y a la princesa.
+
+Elementos que componen la propuesta:
+Los personajes que se emplean son Mario Bros, la princesa Peach, los Goomba, los hongos de vida y crecimiento originales del juego, un escenario basado en un bosque.
+
+
+Manera de llegar al final:
+Se debe evitar quedar con un numero negativo de hongos para no perder, se debe ir avanzando en los niveles e ir recogiendo todos los hongos que hayan en cada nivel, esto con el fin de pasar al siguiente nivel. Cuando se tenga el numero de hongos requerido, se debe ir a donde este la princesa y recojerla, de esta manera gana el juego. Mientras no se tenga el minimo de hongos, la princesa esta escondida y puede cambiar de escondite constantemente.

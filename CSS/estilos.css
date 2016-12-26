@@ -1,0 +1,232 @@
+/*Autor: Samuel Antonio Cabezas Tibaquicha*/
+
+
+/* borra los margenes que pone el navegador por defecto*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Se agregan fuentes de google fonts. Se les asigna nombres especificos a cada una*/
+
+@font-face {
+    font-family: Mario-Title;
+    src: url(../fuentes/MarioTitle.ttf);
+}
+
+@font-face {
+    font-family: Mario-Content;
+    src: url(../fuentes/MarioContent.ttf);
+}
+
+@font-face {
+    font-family: Mario-NavBar;
+    src: url(../fuentes/MarioNavBar.ttf);
+}
+
+
+/* Se crea una configuracion basica para todos los body que se tengan */
+
+body {
+    background-color: #71B238;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Configuracion para el titulo principal, grande de la pagina */
+
+.titulo-principal {
+    font-family: Mario-Title;
+    color: #FFFFFF;
+    font-size: 300%;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* El header ocupa el ancho de la pagina*/
+
+header {
+    width: 100%;
+}
+
+
+/*El menu del header tiene un ancho definido y margenes automaticas*/
+
+nav {
+    width: 1000px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+
+/*Se agrupa el contenido del menu a la izquierda*/
+
+nav li {
+    float: left;
+    overflow: hidden;
+    /*para que no se amontone el menu*/
+    list-style: none;
+}
+
+
+/*Configuracion de alineacion, ancho, color, padding, entre otros, de los botones del menu*/
+
+nav a {
+    text-align: center;
+    width: 200px;
+    /* fixed width */
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    /*para cada elemento del menu*/
+    display: block;
+    /*para poder modificar el padding arriba y abajo*/
+    text-decoration: none;
+    /*Eliminar todo color y subrayado del texto de cada uno de los botones*/
+    font-family: "Mario-NavBar";
+    font-size: 130%;
+}
+
+
+/*Cambie de color el boton del menu cuando se pasa por encima de el*/
+
+nav a:hover {
+    background: #BFDF00;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+
+/*padding y margenes del canvas*/
+
+#canvasGame {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+/*Configuracion basica para cada una de las secciones*/
+
+section {
+    position: relative;
+    padding: 20px;
+    font-family: "Mario-Content";
+    border-style: dashed;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    text-align: justify;
+    background-color: #A6CB45;
+    font-size: 21px;
+}
+
+
+/*Seccion alineada al centro*/
+
+.parrafo-centro {
+    display: inline-block;
+    margin: 30px 80px 10px 80px;
+}
+
+
+/*Configuracion para cada una de las imagenes*/
+
+.imagen {
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+
+
+/*Ubicacion a la derecha de las imagenes contenidas en un parrafo*/
+
+.imagen-parrafo {
+    float: right;
+    margin: 0px 0px 15px 20px;
+}
+
+
+/*Configuracion mapa de navegacion*/
+
+.mapaNavegacion {
+    width: 100%;
+    height: auto;
+}
+
+
+/*Ubicacion y configuracion de los creditos del autor*/
+
+.creditos {
+    text-align: center;
+    display: block;
+    margin: 30px 80px 30px 80px;
+}
+
+
+/*pie de pagina en cada una de las paginas*/
+
+footer {
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    font-family: "Mario-NavBar";
+}
+
+
+/*Quitar color azul y subrayado de los vinculos del footer*/
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Cambios cuando se reduzca el ancho de la pagina a 480px o menos*/
+
+@media screen and (max-width:480px) {
+    /*se achican las medidas de los padding existentes y tambien los tamaños de las imagenes*/
+    .imagen {
+        margin: 0.5%;
+        width: 150px;
+        height: 150px;
+    }
+    .imagen-parrafo {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 5px 5px 5px 5px;
+    }
+    section {
+        padding: 5px;
+    }
+    .parrafo-derecha {
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+    .parrafo-izquierda {
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+    .parrafo-centro {
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+    .parrafo-derecha-imagen {
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+    .parrafo-izquierda-imagen {
+        display: block;
+        margin: 20px 20px 20px 20px;
+    }
+}
